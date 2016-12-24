@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
-# redefine a type to integer
+// redefine new datatype BOOl
 typedef int Bool;
 #define True 1
 #define False 0
