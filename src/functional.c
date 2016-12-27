@@ -23,10 +23,10 @@ void assessSpaceshipCapacity(){
   scanf("%d",&spaceship1 );
 
   printf("Enter pods left in spaceship2: ");
-  scanf("%d\n",&spaceship2 );
+  scanf("%d",&spaceship2 );
 
   printf("Enter pods left in spaceship3: ");
-  scanf("%d\n",&spaceship3 );
+  scanf("%d",&spaceship3 );
 
 }
 
@@ -52,6 +52,6 @@ void generateReport() {
   printf("spaceship1 can accept more visitors: %d\n",(spaceship1 > visitors1) );
   printf("spaceship2 can accept more visitors: %d\n",(spaceship2 > visitors2) );
   printf("spaceship3 can accept more visitors: %d\n",(spaceship3 > visitors3) );
-  printf("On average, there are %.2f visitors waiting per spaceship\n",totalWaitingVisitors/3 );
+  printf("On average, there are %.2f visitors waiting per spaceship\n",totalWaitingVisitors/3.0 );
 
 }
