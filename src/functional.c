@@ -32,13 +32,13 @@ void assessSpaceshipCapacity(){
 
 void estimateWaitingVisitors(){
   printf("Enter visitors waiting for spaceship1: ");
-  scanf("%d\n",&visitors1);
+  scanf("%d",&visitors1);
 
   printf("Enter visitors waiting for spaceship2: ");
-  scanf("%d\n",&visitors2);
+  scanf("%d",&visitors2);
 
   printf("Enter visitors waiting for spaceship3: ");
-  scanf("%d\n",&visitors3);
+  scanf("%d",&visitors3);
 }
 
 void processData(){
