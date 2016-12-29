@@ -27,7 +27,7 @@ void whileLoop(int n){
     printf("%d\n",(n) );
     n++;
     if (n >= 10)
-      flag = TRUE;
+      break;
   }
 }
 
@@ -37,6 +37,6 @@ void doWhileLoop(int n){
     printf("%d\n",(n) );
     n++;
     if (n >= 10)
-      flag = TRUE;
+      break;
   } while (!flag);
 }
