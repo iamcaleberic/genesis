@@ -4,6 +4,7 @@
 
 void forLoop(void);
 void whileLoop(int n);
+void doWhileLoop(int n);
 
 #define TRUE  1
 #define FALSE 0
@@ -11,6 +12,7 @@ void whileLoop(int n);
 int main(void){
   forLoop();
   whileLoop(1);
+  doWhileLoop(1);
 };
 
 void forLoop(void){
@@ -27,4 +29,14 @@ void whileLoop(int n){
     if (n >= 10)
       flag = TRUE;
   }
+}
+
+void doWhileLoop(int n){
+  int flag = FALSE;
+  do {
+    printf("%d\n",(n) );
+    n++;
+    if (n >= 10)
+      flag = TRUE;
+  } while (!flag);
 }
