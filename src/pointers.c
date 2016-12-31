@@ -2,6 +2,7 @@
 #include <stdlib.h>
 
 void printArray(void);
+void arrayLength(void);
 
 int main(void){
   int speed = 15;
@@ -13,6 +14,7 @@ int main(void){
 
   printf("The address %x contains %d\n",ptr, *ptr );
   printArray();
+  arrayLength();
 }
 
 void printArray(void){
@@ -32,4 +34,19 @@ void printArray(void){
   pntr--;
   pntr--;
   printf("address %x stores first value %d\n", pntr, *pntr );
+}
+
+void arrayLength(void){
+  int data[] = {50, 90, 56, 34, 76, 98};
+
+  int *point = data;
+
+  int numOfElements = sizeof(data) / sizeof(int);
+  printf("There are %d elements in the data array\n", numOfElements);
+
+  for(int i; i < numOfElements; i++){
+    printf("Address %x stores value %d\n", point , *point);
+    point++;
+  }
+
 }
