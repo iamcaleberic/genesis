@@ -2,21 +2,16 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define MAX_NAME  30
-#define MAX_COLOR 15
-
-struct human {
-  char firstName[MAX_NAME];
-  char lastName[MAX_NAME];
-  char eyeColor[MAX_COLOR];
-  float height;
-  int age;
-
-};
-
-void printStructure(struct human individual);
+#include "struct.h"
 
 int main(void){
 
+  struct human soldier;
+  soldier.age = 28;
+  soldier.height = 5.6;
+  strcpy(soldier.firstName , "Ragnar");
+  strcpy(soldier.lastName, "Viking");
+  strcpy(soldier.eyeColor, "Hazel");
 
+  printAttr(soldier);
 }
