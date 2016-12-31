@@ -3,6 +3,7 @@
 #include <string.h>
 
 #include "struct.h"
+#include "structArray.h"
 
 int main(void){
 
@@ -14,4 +15,7 @@ int main(void){
   strcpy(soldier.eyeColor, "Hazel");
 
   printAttr(soldier);
+  printf("\n ------ End of Human ------- \n\n" );
+  populateStructArray();
+  printTeamAttr();
 }
