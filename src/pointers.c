@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "dynamicArray.h"
 
 void printArray(void);
 void arrayLength(void);
@@ -8,13 +9,13 @@ int main(void){
   int speed = 15;
   // define a pointer
   int *ptr;
-
   // assign pointer
   ptr = &speed;
-
   printf("The address %x contains %d\n",ptr, *ptr );
+
   printArray();
   arrayLength();
+  dynamicArray();
 }
 
 void printArray(void){
