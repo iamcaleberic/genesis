@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "struct.h"
-#include "structArray.h"
+#include "../includes/struct.h"
+#include "../includes/structArray.h"
 
 int main(void){
 

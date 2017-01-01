@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "dynamicArray.h"
+#include "../includes/dynamicArray.h"
 
 void printArray(void);
 void arrayLength(void);

@@ -1,4 +1,4 @@
-#include "seqfunctions.h"
+#include "../includes/seqfunctions.h"
 
 int main(void){
   readEntireFile();
