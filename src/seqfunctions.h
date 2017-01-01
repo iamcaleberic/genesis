@@ -3,7 +3,7 @@
 
 void readEntireFile(){
   int ch;
-  FILE *fp; // pointer to file
+  FILE *fp; // pointer to data type file
   fp = fopen("/home/caleb/Documents/genesis/data/me", "r");
   ch = getc(fp);
   while (ch != EOF){
