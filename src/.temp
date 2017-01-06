@@ -1,0 +1,23 @@
+arrays.o :
+banking.o : banking
+bitlevel.o :
+boolean.o :
+fibonacci.o : fibonacci
+formulae.o :
+functional.o :
+gasoline.o :
+hello.o :
+loops.o :
+macro.o : macros
+math.o :
+pointers.o : dynamicArray
+recurse.o :
+scan.o :
+seqfiles.o : seqfunctions
+serie.o :
+staex.o :
+stock.o : stock
+stringlib.o :
+struct.o : struct structArray
+temperature.o :
+union.o :
