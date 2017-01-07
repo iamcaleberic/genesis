@@ -1,0 +1,4 @@
+*.o
+autoscan.log
+config.log
+autom4te.cache
