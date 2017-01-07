@@ -2,7 +2,7 @@ cc = gcc
 SRC_FILES = $(wildcard *.c)
 OBJ_FILES = $(patsubst %.c,%.o,$(SRC_FILES))
 VPATH = ../includes
-# FLAGS = -Wall -g -I
+FLAGS = -Wall 
 
 all: arrays banking bitlevel boolean fibonacci math pointers \
 		formulae functional gasoline hello loops macros recurse scan \
