@@ -2,6 +2,5 @@ sudo: required
 
 install: sudo apt-get install libc6-dev
 
-compiler:
-  -gcc
+compiler: gcc
 language: c
