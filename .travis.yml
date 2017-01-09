@@ -1,4 +1,5 @@
+install: sudo apt install libc6-dev
+
 compiler:
   -gcc
 language: c
- 
