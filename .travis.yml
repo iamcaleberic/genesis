@@ -1,4 +1,6 @@
-install: apt install libc6-dev
+sudo: required
+
+install: sudo apt-get install libc6-dev
 
 compiler:
   -gcc
