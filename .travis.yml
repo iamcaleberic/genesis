@@ -1,5 +1,7 @@
+language: c
+
 sudo: required
 
 install: sudo apt-get install libc6-dev
 
-language: c
+compiler: c99
