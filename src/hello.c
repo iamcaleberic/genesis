@@ -4,7 +4,6 @@
 
 int main(void){
 	puts("!!!Hello Math");
-	int number;
 	int square;
 
 	square = sqrt(4);

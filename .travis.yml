@@ -1,0 +1,9 @@
+language: c
+
+sudo: required
+
+install: sudo apt-get install libc6-dev
+
+compiler: c99
+
+script: ./configure && make
